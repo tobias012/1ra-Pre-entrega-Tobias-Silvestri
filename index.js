@@ -1,45 +1,45 @@
-function promediar(num1, num2, num3, num4, num5){
-    let promedio = (num1 + num2 + num3 + num4 + num5)/5;
-    let mensaje = `El promedio de edad de la gente que ingreso a la web es de: ${promedio}`;
+function pago(enc1, enc2, enc3, enc4, enc5){
+    let pago = (enc1 + enc2 + enc3 + enc4 + enc5)/5;
+    let mensaje = `El pago de la gente que ingreso a la web es de: ${pago}`;
 }
 
 
-let num1 = parseInt(prompt("ingrese su edad"));
-if (num1 > 17){
+let enc1 = parseInt(prompt("ingrese su edad"));
+if (enc1 > 17){
     alert("eres mayor de edad, continua con la encuenta")
 }else{
     alert("eres menor de edad, recomendamos que llame a un adulto para seguir")
 }
 
-let num2 = parseInt(prompt("ingrese su edad"));
-if (num1 > 17){
-    alert("eres mayor de edad, continua con la encuenta")
+let enc2 = parseInt(prompt("ingrese su DNI"));
+if (enc2 > 0){
+    alert("gracias, seguiremos con la encuesta")
 }else{
-    alert("eres menor de edad, recomendamos que llame a un adulto para seguir")
+    alert("si no sabes tu DNI, recomendamos tener su domento a mano para seguir")
 }
 
-let num3 = parseInt(prompt("ingrese su edad"));
-if (num1 > 17){
-    alert("eres mayor de edad, continua con la encuenta")
+let enc3 = parseInt(prompt("ingrese su direccion"));
+if (enc3 > 0){
+    alert("gracias, seguiremos con la encuesta")
 }else{
-    alert("eres menor de edad, recomendamos que llame a un adulto para seguir")
+    alert("gracias, seguiremos con la encuesta")
 }
 
-let num4 = parseInt(prompt("ingrese su edad"));
-if (num1 > 17){
-    alert("eres mayor de edad, continua con la encuenta")
+let enc4 = parseInt(prompt("ingrese su numero de tarjeta"));
+if (enc4 > 0){
+    alert("gracias, seguiremos con la encuesta")
 }else{
-    alert("eres menor de edad, recomendamos que llame a un adulto para seguir")
+    alert("si no sabes los datos de tu tarjeta, recomendamos tener su tarjeta a mano para seguir")
 }
 
-let num5 = parseInt(prompt("ingrese su edad"));
-if (num1 > 17){
-    alert("eres mayor de edad, continua con la encuenta")
+let enc5 = parseInt(prompt("ingrese su CUIL/CUIT"));
+if (enc5 > 0){
+    alert("gracias, seguiremos con la encuesta")
 }else{
-    alert("eres menor de edad, recomendamos que llame a un adulto para seguir")
+    alert("si no sabes tu CUIL/CUIT, recomendamos tener su domento a mano para seguir")
 }
 
-promediar(num1, num2, num3, num4, num5);
+pago(enc1, enc2, enc3, enc4, enc5);
 alert ("los datos fueron completados exitosamente")
 
 
